@@ -1,0 +1,39 @@
+{
+  "label_classes": [
+    "High",
+    "Low",
+    "Medium"
+  ],
+  "n_features": 23,
+  "feature_columns": [
+    "CO2_Emissions",
+    "Cluster",
+    "PCA1",
+    "PCA2",
+    "PCA3",
+    "Services_Distribution_Low",
+    "Services_Distribution_Medium",
+    "Services_Proximity_Low",
+    "Services_Proximity_Medium",
+    "Services_Coverage_Low",
+    "Services_Coverage_Medium",
+    "Bike_Lanes_Available_Yes",
+    "STU_Low",
+    "STU_Moderate",
+    "Motorized_Vehicle_Usage_Low",
+    "Motorized_Vehicle_Usage_Medium",
+    "Distance_Reduction_Yes",
+    "Free_Time_Low",
+    "Free_Time_Medium",
+    "Pedestrian_Infrastructure_Inadequate",
+    "Pedestrian_Areas_Present",
+    "Public_Health_Good",
+    "Public_Health_Poor"
+  ],
+  "class_weight": {
+    "0": 0.9489916963226572,
+    "1": 0.9626955475330926,
+    "2": 1.1019283746556474
+  },
+  "seed": 42
+}
